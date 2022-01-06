@@ -277,7 +277,7 @@ sudo lxc-attach debian_php7.4_2
 
 ![40.PNG](https://github.com/nabill13/Praktikum-modul-4-SAS/blob/main/40.PNG?raw=true)
 
-#### Analisa Software Jmeter
+#### <h4> Analisa Software Jmeter </h4>
 
 **50 Pengguna**
 
@@ -303,25 +303,29 @@ Tidak Menggunakan Load Balancer
 
 - Rata-Rata Keseluruhan Halaman(150 Pengguna) : 357 mdtk / 0,357 detik
 
-  **100 Pengguna**
+**100 Pengguna**
 
-  - Ketika terdapat 100 Pengguna, Rata-Rata Waktu yang dibutuhkan pengguna dalam mengakses masing-masing halaman.
+- Ketika terdapat 100 Pengguna, Rata-Rata Waktu yang dibutuhkan pengguna dalam mengakses masing-masing halaman.
 
-  Tidak Menggunakan Load Balancer
+Tidak Menggunakan Load Balancer
 
-  - Landing (100 Pengguna): 507 mdtk / 0,507 detik
+- Landing (100 Pengguna): 507 mdtk / 0,507 detik
 
-  - Blog (100 Pengguna) : 827 mdtk / 0,827 detik
+- Blog (100 Pengguna) : 827 mdtk / 0,827 detik
 
-  - App (100 Pengguna) : 778 mdtk / 0,778 detik 
+- App (100 Pengguna) : 778 mdtk / 0,778 detik 
 
-  - Rata-Rata Keseluruhan Halaman(300 Pengguna) : 704 mdtk / 0,704 detik
+- Rata-Rata Keseluruhan Halaman(300 Pengguna) : 704 mdtk / 0,704 detik
 
-    Menggunakan Load BalancerLanding (100 Pengguna) : 479 mdtk / 0,479 detikBlog (100 Pengguna) : 800 mdtk / 0,8 detikApp (100 Pengguna) : 867 mdtk / 0,867 detik Rata-Rata Keseluruhan Halaman(150 Pengguna) : 714 mdtk / 0,714 detik
+Menggunakan Load Balancer
+- Landing (100 Pengguna) : 479 mdtk / 0,479 detik
+- Blog (100 Pengguna) : 800 mdtk / 0,8 detik
+- App (100 Pengguna) : 867 mdtk / 0,867 detik 
+- Rata-Rata Keseluruhan Halaman(150 Pengguna) : 714 mdtk / 0,714 detik
 
-    **150 Pengguna**
+**150 Pengguna**
 
-    Ketika terdapat 150 Pengguna, Rata-Rata Waktu yang dibutuhkan pengguna dalam mengakses masing-masing halaman.
+Ketika terdapat 150 Pengguna, Rata-Rata Waktu yang dibutuhkan pengguna dalam mengakses masing-masing halaman.
 
 Tidak Menggunakan Load Balancer
 
@@ -329,7 +333,9 @@ Tidak Menggunakan Load Balancer
 
 - Blog (150 Pengguna) : 1383 mdtk / 1,383 detik
 
-- App (150 Pengguna) : 1271 mdtk / 1,271 detik Rata-Rata Keseluruhan Halaman(450 Pengguna) : 1121 mdtk / 0,078 detik
+- App (150 Pengguna) : 1271 mdtk / 1,271 detik 
+
+- Rata-Rata Keseluruhan Halaman(450 Pengguna) : 1121 mdtk / 0,078 detik
 
   Menggunakan Load Balancer
 
@@ -341,7 +347,7 @@ Tidak Menggunakan Load Balancer
 
 - Rata-Rata Keseluruhan Halaman(450 Pengguna) : 1056 mdtk / 1,056 detik
 
-  Dari Jumlah Pengguna(50,100,150), Disini kita dapat mengetahui bahwa rata-rata waktu pengguna mengakses web kita lebih cepat (Tidak Menggunakan Load balancer) dibandingkan jika kita menggunakan load balancer.
+ Dari Jumlah Pengguna(50,100,150), Disini kita dapat mengetahui bahwa rata-rata waktu pengguna mengakses web kita lebih cepat (Tidak Menggunakan Load balancer) dibandingkan jika kita menggunakan load balancer.
 
 
 
@@ -361,62 +367,62 @@ Tanpa Menggunakan Load Balancer
 
 - Total Throughput Keseluruhan Halaman(150 Pengguna) : 114,2/detik
 
-  Menggunakan Load Balancer
+Menggunakan Load Balancer
 
-  - Landing (50 Pengguna) : 87,4/detik
+- Landing (50 Pengguna) : 87,4/detik
 
-  - Blog (50 Pengguna) : 53,1/detik
+- Blog (50 Pengguna) : 53,1/detik
 
-  - App (50 Pengguna) : 61,2/detik 
+- App (50 Pengguna) : 61,2/detik 
 
-  - Total Throughput Keseluruhan Halaman(150 Pengguna) : 117/detik
+- Total Throughput Keseluruhan Halaman(150 Pengguna) : 117/detik
 
-    **100 Pengguna**
+**100 Pengguna**
 
-  - Ketika terdapat 100 Pengguna, melakukan transfer data dalam masing-masing halaman.
+- Ketika terdapat 100 Pengguna, melakukan transfer data dalam masing-masing halaman.
 
-    Tidak Menggunakan Load Balancer
+Tidak Menggunakan Load Balancer
 
-  - Landing (100 Pengguna) : 102,6/detik
+- Landing (100 Pengguna) : 102,6/detik
 
-  - Blog (100 Pengguna) : 60,8/detik
+- Blog (100 Pengguna) : 60,8/detik
 
-  - App (100 Pengguna) : 60,9/detik 
+- App (100 Pengguna) : 60,9/detik 
 
-  - Total Throughput Keseluruhan Halaman(300 Pengguna) : 199,7/detik
+- Total Throughput Keseluruhan Halaman(300 Pengguna) : 199,7/detik
 
-    Menggunakan Load Balancer
+Menggunakan Load Balancer
 
-    - Landing (100 Pengguna) : 112,7/menit
+- Landing (100 Pengguna) : 112,7/menit
 
-    - Blog (100 Pengguna) : 57,7/menit
+- Blog (100 Pengguna) : 57,7/menit
 
-    - App (100 Pengguna) : 59,6/menit 
+- App (100 Pengguna) : 59,6/menit 
 
-    - Total Throughput Keseluruhan Halaman(300 Pengguna) : 117/detik
+- Total Throughput Keseluruhan Halaman(300 Pengguna) : 117/detik
 
-      **150 Pengguna**
+**150 Pengguna**
 
-      Ketika terdapat 150 Pengguna, melakukan transfer data dalam masing-masing halaman.
+ Ketika terdapat 150 Pengguna, melakukan transfer data dalam masing-masing halaman.
 
-      Tidak Menggunakan Load Balancer
+ Tidak Menggunakan Load Balancer
 
-      - Landing (150 Pengguna) : 101,4/detik
+ - Landing (150 Pengguna) : 101,4/detik
 
-      - Blog (150 Pengguna) : 57,3/detik
+ - Blog (150 Pengguna) : 57,3/detik
 
-      - App (150 Pengguna) : 56,9/detik 
+ - App (150 Pengguna) : 56,9/detik 
 
-      - Total Throughput Keseluruhan Halaman(450 Pengguna) : 109,4/detik
+ - Total Throughput Keseluruhan Halaman(450 Pengguna) : 109,4/detik
 
-        Menggunakan Load Balancer
+ Menggunakan Load Balancer
 
-        - Landing (150 Pengguna) : 101,7/detik
+ - Landing (150 Pengguna) : 101,7/detik
 
-        - Blog (150 Pengguna) : 61,1/detik
+ - Blog (150 Pengguna) : 61,1/detik
 
-        - App (150 Pengguna) : 60,4/detik 
+ - App (150 Pengguna) : 60,4/detik 
 
-        - Total Throughput Keseluruhan Halaman(450 Pengguna) : 116/detik
+ - Total Throughput Keseluruhan Halaman(450 Pengguna) : 116/detik
 
-          Dari Jumlah Pengguna(50,100,150), Disini kita dapat mengetahui bahwa kecepatan transfer data pada web lebih besar jika tidak menggunakan Load balancer dibandingkan menggunakan load balancer.
+Dari Jumlah Pengguna(50,100,150), Disini kita dapat mengetahui bahwa kecepatan transfer data pada web lebih besar jika tidak menggunakan Load balancer dibandingkan menggunakan load balancer.
